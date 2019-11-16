@@ -4,6 +4,7 @@
   "description": "app mensaje",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "var"
   },
   "author": "jefferson",
@@ -11,5 +12,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
