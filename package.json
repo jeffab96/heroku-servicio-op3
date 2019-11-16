@@ -1,0 +1,16 @@
+{
+  "name": "servicio-op3-g4",
+  "version": "1.0.0",
+  "description": "app mensaje",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "var"
+  },
+  "author": "jefferson",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
