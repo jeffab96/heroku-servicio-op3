@@ -8,9 +8,9 @@ var resp = "";
 
 app.get('/operacion/:id', function(req, res, next) {
 if (req.params.id == "editar") {
-  resp = "El Estudiante se ha editado correctamente";
+  resp = "El Estudiante se ha editado correctamente.";
 }else if (req.params.id == "eliminar") {
-  resp = "El Estudiante se ha eliminado correctamente";
+  resp = "El Estudiante se ha eliminado correctamente.";
 }else {
   resp = "Se produjo un problema en la Edición/Eliminación";
 }
