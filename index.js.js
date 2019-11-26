@@ -14,7 +14,7 @@ if (req.params.id == "editar") {
 }else {
   resp = "Se produjo un problema en la Edición/Eliminación";
 }
-  res.json({output: resp});
+  res.json({msg: resp});
 });
 
 app.get('/G4T7', (req, res) => {
